@@ -1,0 +1,20 @@
+{
+  "name": "calendar-engine",
+  "version": "1.0.0",
+  "description": "Create custom calendars",
+  "main": "lib/main.js",
+  "dependencies": {
+    "jspdf": "^1.4.1",
+    "node-calendar": "^0.1.5",
+    "yoga-layout": "^1.9.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "p.thamarai@gmail.com",
+  "license": "ISC"
+}
